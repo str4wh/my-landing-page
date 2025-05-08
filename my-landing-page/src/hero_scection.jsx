@@ -71,28 +71,28 @@ function Hero_scection() {
             <div class="border-0 rounded-4xl shadow-xl/30 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 p-6 mt-5">
                 <div class="text-center" ref={ref1}>
                     <p class="text-4xl sm:text-5xl md:text-6xl font-bold mb-1 text-purple-600">
-                    {inView1 && <CountUp end={200} duration={2} />}+
+                    {inView1 && <CountUp end={200} duration={4} />}+
                     </p>
                     <p class="text-sm sm:text-base">Students Enrolled</p>
                 </div>
 
                 <div class="text-center" ref={ref2}>
                     <p class="text-4xl sm:text-5xl md:text-6xl font-bold mb-1 text-purple-600">
-                    {inView2 && <CountUp end={100} duration={2} />}+
+                    {inView2 && <CountUp end={100} duration={4} />}+
                     </p>
                     <p class="text-sm sm:text-base">Active Teachers</p>
                 </div>
 
                 <div class="text-center" ref={ref3}>
                     <p class="text-4xl sm:text-5xl md:text-6xl font-bold mb-1 text-purple-600">
-                    {inView3 && <CountUp end={50} duration={2} />}+
+                    {inView3 && <CountUp end={50} duration={4} />}+
                     </p>
                     <p class="text-sm sm:text-base">Courses Uploaded</p>
                 </div>
 
                 <div class="text-center" ref={ref4}>
                     <p class="text-4xl sm:text-5xl md:text-6xl font-bold mb-1 text-purple-600">
-                    {inView4 && <CountUp end={4.8} decimals={1} duration={2} />}+
+                    {inView4 && <CountUp end={4.8} decimals={1} duration={4} />}+
                     </p>
                     <p class="text-sm sm:text-base">Average Rating</p>
                 </div>
